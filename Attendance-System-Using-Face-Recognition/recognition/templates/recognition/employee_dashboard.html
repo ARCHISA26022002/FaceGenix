@@ -1,0 +1,92 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	
+</head>
+<body>
+  
+    <div class="col-lg-12">
+      <nav class="navbar navbar-light bg-light ">
+        <a class="navbar-brand"><img src="{% static 'recognition/img/icon.jpg' %}" class="img-responsive" style="width:50px;height:50px ;" /></a>
+        <form class="form-inline">
+    
+          <a href='{%url "logout" %}'
+            style="background-color:#9783FE;color:white;border-radius:20px;font-size:20px;height:50px;width:auto;padding:10px;">LOGOUT</a>
+        </form>
+      </nav>
+    </div>
+
+    <div class="col-lg-12">
+      <img src="{% static 'recognition/img/welcome.png' %}" style="margin-left:30%;height:450px;width:auto;">
+    </div>
+
+    <div class="col-lg-12">
+      <div class="row">
+        <div class="col-lg-5" style="margin-top:170px;padding-left: 90px;">
+          <h1 style="padding-bottom: 20px; font-size:50px;color:#9783FE">
+            Welcome, {{user.username}}!
+          </h1>
+          <p style="font-size:20px;padding-bottom:30px;">This is the Employee portal. Here the employee can check his/her attendance report.</p>
+            <p><a href='{%url "view-my-attendance-employee-login" %}' style="background-color:#9783FE;color:white;border-radius:20px;font-size:20px;height:60px;width:auto;padding:10px;">View My Attendance Report</a></p>
+        </div>
+        <div class="col-lg-7" style="margin-top:50px;">
+          <img src="{% static 'recognition/img/Hello.png' %}" class="img-responsive" style="width:100%;height:100%;">
+        </div>
+    
+      </div>
+
+     <style>
+      h4{
+        margin-bottom: 1.5em;
+        padding-top: 30px;
+
+      }
+      img{
+        border-radius:50%;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      h3{
+        margin-bottom: 1.3em;
+      }
+      a{
+        color:inherit
+      }
+      a:hover{
+        color:inherit;
+        text-decoration: none;
+      }
+      
+    </style>
+    
+    <div class="col-lg-12">
+      {% if messages %}
+      {% for message in messages%}
+      <div class="alert alert-{{message.tags}}" > {{message}}
+      </div>
+      {%endfor %}
+      {%endif%}
+    </div>
+
+
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

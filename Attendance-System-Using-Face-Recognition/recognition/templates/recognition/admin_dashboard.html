@@ -1,0 +1,179 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'>
+    $(document).ready(function () {
+      $("#train").click(function () {
+        alert("Training begun. This may take upto 5 minutes. Please wait.");
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+  <div class="col-lg-12">
+    <nav class="navbar navbar-light bg-light ">
+      <a class="navbar-brand"><img src="{% static 'recognition/img/icon.jpg' %}" class="img-responsive"
+          style="width:50px;height:50px ;" /></a>
+      <form class="form-inline">
+        <a href='{%url "logout" %}'
+          style="background-color:#9783FE;color:white;border-radius:20px;font-size:20px;height:50px;width:auto;padding:10px;">LOGOUT</a>
+      </form>
+    </nav>
+  </div>
+
+  <div class="col-lg-12">
+    <div class="row">
+      <div class="col-lg-5" style="margin-top:300px;padding-left: 90px;">
+        <h1 style="padding-bottom: 20px; font-size:60px;color:#9783FE">
+          WELCOME ADMIN!
+        </h1>
+        <p style="font-size:20px;">This is the Admin portal.Only the Admin can access this page.Here the Admin can perform various functions like Register New Employees, Add photos.</p>
+      </div>
+      <div class="col-lg-7">
+        <img src="{% static 'recognition/img/face.jpg' %}" class="img-responsive" style="width:100%;height:100%;">
+      </div>
+
+    </div>
+
+    <style>
+      h4 {
+        margin-bottom: 1.5em;
+        padding-top: 30px;
+
+      }
+
+      img {
+        border-radius: 50%;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+      }
+
+      h3 {
+        margin-bottom: 1.3em;
+      }
+
+      a {
+        color: inherit
+      }
+
+      a:hover {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .att {
+        padding-right: 150px;
+      }
+
+      .lgn {
+        padding-right: 80px;
+      }
+    </style>
+
+    <div class="col-lg-12">
+      {% if messages %}
+      {% for message in messages%}
+      <div class="alert alert-{{message.tags}}"> {{message}}
+      </div>
+      {%endfor %}
+      {%endif%}
+    </div>
+
+
+
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-7" style="padding-left:50px;">
+            <img src="{% static 'recognition/img/New_Employee.png' %}" class="img-responsive"
+              style="height:750px; width:800px;" />
+          </div>
+          <div class="col-lg-5" style="margin-top:250px;padding-right:50px;">
+            <h1 style="padding-bottom: 20px; font-size:40px;color:#9783FE">
+              REGISTER NEW USER
+            </h1>
+            <p style="font-size:20px;padding-bottom:20px;">Admin can register the details about the new employee using this feature .</p>
+            <p><a href='{%url "register" %}'
+                style="background-color:#9783FE;color:white;border-radius:20px;font-size:20px;height:60px;width:auto;padding:10px;">Register
+                New Employee</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-5" style="padding-left:90px;margin-top:150px;">
+            <h1 style="padding-bottom: 20px; font-size:40px;color:#9783FE">
+              ADD PHOTOS
+            </h1>
+            <p style="font-size:20px;padding-bottom:20px;">Admin also need to add a photo of the employee during the registration process.This feature is accessible only by the admin</p>
+            <p><a href='{%url "add-photos" %}'
+                style="background-color:#9783FE;color:white;border-radius:20px;font-size:20px;height:60px;width:auto;padding:10px;">Add
+                Photo</a></p>
+          </div>
+          <div class="col-lg-7">
+            <img src="{% static 'recognition/img/Add_photo.png' %}" class="img-responsive"
+              style="height:650px;width:auto;" />
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-7" style="padding-left:50px;">
+            <img src="{% static 'recognition/img/Report.png' %}" class="img-responsive"
+              style="height:750px; width:800px;" />
+          </div>
+          <div class="col-lg-5" style="margin-top:250px;padding-right:50px;">
+            <h1 style="padding-bottom: 20px; font-size:40px;color:#9783FE">
+              TRAIN IMAGE
+            </h1>
+            <p style="font-size:20px;padding-bottom:20px;">System will process all the available records(images) of the employees and will
+            generate necessary system data to identify each employee uniquely.</p>
+            <p><a href='{%url "train" %}'
+                style="background-color:#9783FE;color:white;border-radius:20px;font-size:20px;height:60px;width:auto;padding:10px;">Train
+                Image</a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
