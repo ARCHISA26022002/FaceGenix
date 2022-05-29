@@ -32,9 +32,20 @@ For any further details on this project you can see the documentation above.
 - run **``` pip install -r requirements.txt inside \Attendance-System-Using-Face-Recognition ```** directory
 - Run **``` python manage.py runserver ```** inside **``` \Attendance-System-Using-Face-Recognition ```** directory to run the project
 
+## Flow of the project
+<img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/FlowChart_FaceGenix.jpg" width="45%"></img> 
 
 ## UI 💻
-<img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Landing.jpg" width="45%"></img> <img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Mark_out.jpg" width="45%"></img> <img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Mark_in.jpg" width="45%"></img> <img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/login.jpg" width="45%"></img> <img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Admin_dashboard.jpg" width="45%"></img> <img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Employee_dashboard.jpg" width="45%"></img> <img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/FlowChart_FaceGenix.jpg" width="45%"></img> <img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Register_form.jpg" width="45%"></img>
+<img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Landing.jpg" width="45%"></img> 
+<img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Mark_out.jpg" width="45%"></img> 
+<img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Mark_in.jpg" width="45%"></img> 
+<img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/login.jpg" width="45%"></img> 
+<img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Admin_dashboard.jpg" width="45%"></img> 
+<img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Employee_dashboard.jpg" width="45%"></img> 
+<img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Register_form.jpg" width="45%"></img>
+<img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Register_form.jpg" width="45%"></img>
+<img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Add_photos.jpg" width="45%"></img>
+<img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/NewUser.jpg" width="45%"></img>
 
 
 
