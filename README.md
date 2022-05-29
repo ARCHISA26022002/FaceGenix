@@ -1,10 +1,10 @@
 ![Project Logo](https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Cover.jpg)
 
-## Attendance Management System Using Face Recognition 
+## Attendance Management Application Using Face Recognition 
 
 This project involves developing an attendance system that uses facial recognition to track employee presence, time-in, and time-out. It includes facial detection, alignment, and identification, as well as the creation of a web application to support the organization's needs, such as new employee registration, photo addition to the training dataset, reading attendance records, and so on. This project aims to provide a cost-effective alternative to standard manual attendance methods. It can be utilized in places like corporate offices, schools, and businesses where security is a must.
 
-**The system has 2 types of users**
+**This Application has 2 types of users**
 1. Employee
 2. Admin
 
