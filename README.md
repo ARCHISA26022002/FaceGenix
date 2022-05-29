@@ -41,7 +41,7 @@ For any further details on this project you can see the documentation above.
 <img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Mark_in.jpg" width="45%"></img> 
 <img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/login.jpg" width="45%"></img> 
 <img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Admin_dashboard.jpg" width="45%"></img> 
-<img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Employee_dashboard.jpg" width="45%"></img> 
+<img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Employee_portal.jpg" width="45%"></img> 
 <img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Register_form.jpg" width="45%"></img>
 <img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Register_form.jpg" width="45%"></img>
 <img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Add_photos.jpg" width="45%"></img>
