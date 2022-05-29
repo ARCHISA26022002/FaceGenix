@@ -33,7 +33,7 @@ For any further details on this project you can see the documentation above.
 - Run **``` python manage.py runserver ```** inside **``` \Attendance-System-Using-Face-Recognition ```** directory to run the project
 
 ## Flow of the project
-<img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/FlowChart_FaceGenix.jpg" width="45%"></img> 
+<img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/FlowChart_FaceGenix.jpg" width="85%"></img> 
 
 ## UI 💻
 <img src="https://github.com/ARCHISA26022002/FaceGenix/blob/main/UI%20(SCREENSHOTS)/Landing.jpg" width="45%"></img> 
