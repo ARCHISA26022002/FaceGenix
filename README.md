@@ -29,7 +29,7 @@ For any further details on this project you can see the documentation above.
 ## How To Run ?
 
 - clone it on your computer
-- run **``` pip install -r requirements.txt inside \Attendance-System-Using-Face-Recognition ```** directory
+- run **``` pip install -r requirements.txt```** inside \Attendance-System-Using-Face-Recognition directory
 - Run **``` python manage.py runserver ```** inside **``` \Attendance-System-Using-Face-Recognition ```** directory to run the project
 
 ## Flow of the project
