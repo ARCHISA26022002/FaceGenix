@@ -9,7 +9,7 @@ Cython==0.29.21
 Django==3.1.8
 django-crispy-forms==1.10.0
 django-pandas==0.6.2
-# dlib==19.21.1
+dlib==19.21.1
 face-recognition==1.3.0
 face-recognition-models==0.3.0
 idna==2.10
@@ -20,7 +20,7 @@ matplotlib==3.3.3
 mypy-extensions==0.4.3
 numpy==1.19.3
 opencv-python==4.4.0.46
-# pandas==1.1.5
+pandas==1.1.5
 pathspec==0.8.1
 Pillow==8.1.1
 pyparsing==2.4.7
@@ -38,3 +38,4 @@ toml==0.10.2
 typed-ast==1.4.2
 typing-extensions==3.7.4.3
 urllib3==1.26.4
+gunicorn==20.1.0
