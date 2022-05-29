@@ -23,7 +23,7 @@ This project involves developing an attendance system that uses facial recogniti
 
 
 ## Documentation 📰
-[This](https://github.com/ARCHISA26022002/FaceGenix/blob/main/Documentation.pdf)
+[Document](https://github.com/ARCHISA26022002/FaceGenix/blob/main/Documentation.pdf)
 For any further details on this project you can see the documentation above.
  
 ## How To Run ?
