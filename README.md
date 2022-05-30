@@ -29,10 +29,13 @@ For any further details on this project you can see the documentation above.
 ## How To Run ?
 - clone it on your computer
 - make a separate [python virtual environment](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) or use the default one already installed on your machine
+- Install python version 3.6
 - Download [this](https://drive.google.com/uc?export=download&id=1HzO-rnEqgkZ6tLt48yWhYgHk1_zOIYhf) file 
  - put it inside **``` \Attendance-System-Using-Face-Recognition\face_recognition_data ```** directory
 - run **``` pip install -r requirements.txt```** inside \Attendance-System-Using-Face-Recognition directory
 - Run **``` python manage.py runserver ```** inside \Attendance-System-Using-Face-Recognition directory to run the project
+- To view the admin dashboard use username as "admin" and password as "admin"
+- To view the employee dashboard either register a new user through the admin portal or use username as "SaritaK" and password as "Chittaranjan@2426"
 - Enjoy !
 
 
